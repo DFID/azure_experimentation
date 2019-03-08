@@ -1,0 +1,19 @@
+{
+	"name": "AzureBlob1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureBlob",
+		"typeProperties": {
+			"compression": {
+				"type": "ZipDeflate",
+				"level": "Fastest"
+			},
+			"fileName": "iatidailydump",
+			"folderPath": "friday8mar-container"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

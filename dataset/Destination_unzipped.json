@@ -1,0 +1,15 @@
+{
+	"name": "Destination_unzipped",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureBlob",
+		"typeProperties": {
+			"fileName": "",
+			"folderPath": "friday8mar-container2"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,15 @@
+{
+	"name": "DestinationDataset_lqf",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureBlob",
+		"typeProperties": {
+			"fileName": "iatidailydump",
+			"folderPath": "friday8mar-container"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
